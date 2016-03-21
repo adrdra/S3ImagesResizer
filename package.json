@@ -4,7 +4,8 @@
   "description": "A node.js App to resize images when your bucket S3 send an ObjectCreated Event.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js --presets es2015,stage-2"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/alexisHetic/S3ImagesResizer/issues"
   },
-  "homepage": "https://github.com/alexisHetic/S3ImagesResizer#readme"
+  "homepage": "https://github.com/alexisHetic/S3ImagesResizer#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.2",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.45",
+    "sqs-consumer": "^3.1.2"
+  }
 }
