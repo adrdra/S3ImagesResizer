@@ -1,0 +1,19 @@
+{
+  "name": "s3_images_resizer",
+  "version": "1.0.0",
+  "description": "A node.js App to resize images when your bucket S3 send an ObjectCreated Event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisHetic/S3ImagesResizer.git"
+  },
+  "author": "Alexis Delvaque <alex.delvaque@gmail.com> (http://adrdra.rocks)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexisHetic/S3ImagesResizer/issues"
+  },
+  "homepage": "https://github.com/alexisHetic/S3ImagesResizer#readme"
+}
